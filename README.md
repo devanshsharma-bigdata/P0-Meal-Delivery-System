@@ -6,8 +6,8 @@
 #### 2) User can update one or more meals.
 #### 3) User can delete one or more meals.
 #### 4) User can find one or more meals.
-#### 5) User can sort the meals' list.
-#### 6) User can delete the meals' list.
+#### 5) User can sort the meals' collection.
+#### 6) User can delete the meals' collection.
 
 ## Packages used:-
 #### 1) Pymongo
