@@ -10,16 +10,17 @@
 #### 6) User can delete the meals' collection.
 #### 7) User can see the inserted ids of documents.
 
-## Packages used:-
+## Packages used
 #### 1) Pymongo
 #### 2) JSON
 #### 3) Warnings
 
-## Technologies used:-
+## Technologies used
 #### 1) Python
 #### 2) MongoDB
+#### 3) SQL
 
-## Functions used:-
+## Pymongo Methods used
 #### 1) insert_one()
        Used for inserting a single document in the collection.
 #### 2) insert_many()
@@ -40,4 +41,23 @@
        Used for sorting the documents in the collection by ascending or descending order.
 #### 10) drop()
         Used for deleting the collection.
+        
+## MySQL Commands used
+#### 1) CREATE DATABASE
+        Used to create a database.
+#### 2) CREATE TABLE
+        Used to create a table in the database.
+#### 3) INSERT INTO
+        Used to insert one or more rows in the table.
+#### 4) UPDATE
+        Used to update one or more rows in the table.
+#### 5) DELETE
+        Used to delete one or more rows in the table.
+#### 6) SELECT
+        Used to extract data from one or more rows in the table.
+#### 7) ORDER BY
+        Used to sort the rows of a table in ascending or descending order.
+#### 8) DROP TABLE
+        Used to delete a table from the database.
+        
 
