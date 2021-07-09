@@ -1,0 +1,18 @@
+Create database meal_delivery;
+CREATE TABLE meal_collection (meal_id int, category VARCHAR(20),cuisine VARCHAR(20));
+INSERT INTO meal_collection (meal_id,category,cuisine) VALUES (1111,'Beverages','French');
+INSERT INTO meal_collection (meal_id,category,cuisine) VALUES (7777,'Other Snacks','Indian'),(8888,'Other Snacks','Arab'),(9999,'Main Course','Korean');
+SELECT meal_id,category,cuisine FROM meal_collection WHERE meal_id=1111;
+SELECT meal_id,category,cuisine FROM meal_collection WHERE meal_id=7777 OR meal_id=8888 OR meal_id=9999;
+SET SQL_SAFE_UPDATES = 0;
+UPDATE meal_collection SET cuisine='Spanish' WHERE meal_id=1111;
+SELECT meal_id,category,cuisine FROM meal_collection WHERE meal_id=1111;
+UPDATE meal_collection SET cuisine='Spanish' WHERE meal_id=7777 OR meal_id=8888 OR meal_id=9999;
+SELECT meal_id,category,cuisine FROM meal_collection WHERE meal_id=7777 OR meal_id=8888 OR meal_id=9999;
+DELETE FROM meal_collection WHERE meal_id=1111;
+SELECT meal_id,category,cuisine FROM meal_collection WHERE meal_id=1111;
+DELETE FROM meal_collection WHERE meal_id=7777 OR meal_id=8888 OR meal_id=9999;
+SELECT meal_id,category,cuisine FROM meal_collection WHERE meal_id=7777 OR meal_id=8888 OR meal_id=9999;
+SELECT * FROM meal_collection ORDER BY meal_id;
+DROP TABLE meal_collection;
+SELECT * FROM meal_collection;
