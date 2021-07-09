@@ -20,7 +20,7 @@
 #### 2) MongoDB
 #### 3) SQL
 
-## Pymongo Methods used
+## PyMongo Methods used
 #### 1) insert_one()
        Used for inserting a single document in the collection.
 #### 2) insert_many()
