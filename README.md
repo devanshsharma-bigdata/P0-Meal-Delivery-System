@@ -8,6 +8,7 @@
 #### 4) User can find one or more meals.
 #### 5) User can sort the meals' collection.
 #### 6) User can delete the meals' collection.
+#### 7) User can see the inserted ids of documents.
 
 ## Packages used:-
 #### 1) Pymongo
