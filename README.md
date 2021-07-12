@@ -16,9 +16,9 @@
 #### 3) Warnings
 
 ## Pre-requisites
-#### MongoDB Compass
-#### MySQL
-#### Jupyter Notebook
+#### 1) MongoDB Compass
+#### 2) MySQL
+#### 3) Jupyter Notebook
 
 ## Technologies used
 #### 1) Python
