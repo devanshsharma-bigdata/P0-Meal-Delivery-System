@@ -15,6 +15,11 @@
 #### 2) JSON
 #### 3) Warnings
 
+## Pre-requisites
+#### MongoDB Compass
+#### MySQL
+#### Jupyter Notebook
+
 ## Technologies used
 #### 1) Python
 #### 2) MongoDB
