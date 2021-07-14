@@ -1,6 +1,9 @@
 # Meal Delivery Project
 #### by Devansh Sharma
 
+## Problem Statement
+#### To perform CRUD operations and sorting on meal info dataset using Jupyter Notebook and MySQL.
+
 ## Service function
 #### 1) User can insert one or more meals.
 #### 2) User can update one or more meals.
